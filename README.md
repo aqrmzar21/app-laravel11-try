@@ -7,10 +7,13 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-🎯 Blog Project - Laravel 11 + SQLite
+## 🎯 Blog Project - Laravel 11 + SQLite
+
 Selamat datang di proyek BLOG, sebuah aplikasi berbasis Laravel 11 yang dirancang dengan kesederhanaan dan efisiensi. Proyek ini menggunakan SQLite sebagai database utama untuk kemudahan setup dan pengembangan lokal.
+
 💡 Catatan penting: Karena menggunakan PDO_SQLITE, sangat disarankan untuk menginstall TablePlus agar lebih mudah mengelola database SQLite.
-🚀 Fitur Utama
+
+## 🚀 Fitur Utama
 - 🔗 Dibangun dengan Laravel 11
 - ⚡ Terintegrasi dengan Vite Konfig
 - ✈️ Menggunakan Airplane untuk deployment atau workflow (opsional)
@@ -18,7 +21,8 @@ Selamat datang di proyek BLOG, sebuah aplikasi berbasis Laravel 11 yang dirancan
 - 📂 Struktur proyek modular dan maintainable
 - ⚙️ Migrasi database praktis langsung via Artisan
 
-⚙️ Setup Environment
+## ⚙️ Setup Environment
+
 Langkah awal setup project:
 - Clone repo: https://github.com/aqrmzar21/app-laravel11-try.git
 - Masuk ke folder proyek dan install dependensi:
@@ -34,7 +38,8 @@ DB_DATABASE=${PWD}/database/database.sqlite
 💡 ${PWD} otomatis menunjuk ke path penuh di macOS/Linux. Untuk pengguna Windows, gunakan path absolut seperti:
 DB_DATABASE=C:/Users/namamu/path-ke-project/database/database.sqlite
 
-🧱 Migrasi SQLite
+## 🧱 Migrasi SQLite
+
 Laravel 11 siap digunakan dengan SQLite. Ikuti langkah berikut agar migrasi berhasil:
 - Jalankan dua terminal terpisah:
 - Terminal A (Bash): php artisan serve
@@ -49,19 +54,20 @@ extension=pdo_sqlite
 extension=sqlite3
 📎 Untuk pengguna Laragon, XAMPP, atau MAMP, pastikan kedua ekstensi diaktifkan sebelum migrasi.
 
-📂 Struktur Proyek
+## 📂 Struktur Proyek
 - app/Models/ — Model Eloquent untuk SQLite
 - database/migrations/ — Skrip migrasi Laravel
 - routes/web.php — Routing aplikasi web
 - resources/views/ — Template tampilan Blade
 
-🧑‍💻 Tentang Saya
+## 🧑‍💻 Tentang Saya
 Saya adalah pengembang di balik proyek ini. Fimana adalah bentuk eksplorasi saya terhadap Laravel terbaru dengan pendekatan ringan menggunakan SQLite. Saya berharap proyek ini bisa jadi referensi atau inspirasi untuk developer lainnya.
 
-📬 Kontribusi & Feedback
+## 📬 Kontribusi & Feedback
+
 Silakan buka Issue untuk memberikan ide, saran, atau pertanyaan. Pull Request juga sangat saya apresiasi.
 
-✨ Terima kasih sudah mampir!
+## ✨ Terima kasih sudah mampir!
 Jangan lupa kasih ⭐ kalau menurutmu repo ini bermanfaat.
 
 
