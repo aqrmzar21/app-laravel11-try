@@ -6,7 +6,41 @@ Selamat datang di proyek **BLOG**, sebuah aplikasi berbasis [Laravel 11](https:/
 
 ## 🚀 Fitur Utama
 - 🔗 Dibangun dengan Laravel 11
+- 🔗 Dibangun dengan Vite Konfig
+- 🔗 Dibangun dengan Airplane
+- 📂 Struktur Proyek
 - 🗂️ Menggunakan database SQLite
 - 🎨 Desain modular & mudah dikembangkan
 - ⚙️ Migrasi database langsung dan ringkas
 
+⚙️ Setup Environment
+Copy konfigurasi  dan generate APP_KEY:
+
+Update bagian konfigurasi database:
+
+💡 Note:  akan otomatis mengarah ke path penuh project kamu di Linux/macOS. Di Windows, kamu bisa ganti dengan .
+🧱 Migrasi SQLite
+Laravel 11 sudah siap digunakan dengan SQLite, tapi pastikan langkah berikut dilakukan:
+1. 	Lakukan bash command berbeda terminal
+Contoh:
+-- Terminal BASH
+php artisan serve
+
+-- Terminal PowerShell
+npm run dev
+
+2. 	Lakukan migrasi:
+php artisan migrate
+
+3. 	Aktifkan ekstensi SQLite di PHP:
+
+3. 	Buka file php.ini dan pastikan:
+extension=pdo_sqlite
+extension=sqlite3
+
+📎 Untuk pengguna Laragon atau XAMPP, pastikan konfigurasi ini diaktifkan agar migrasi bisa berjalan lancar.
+
+🧑‍💻 Tentang Saya
+Saya adalah pengembang di balik proyek ini. Fimana adalah bentuk eksplorasi saya terhadap Laravel terbaru dengan pendekatan lightweight melalui SQLite. Saya senang jika proyek ini bisa membantu atau jadi referensi untuk pengembang lain!
+📬 Kontribusi & Feedback
+Buka issue untuk feedback, ide, atau pertanyaan. Pull request juga sangat saya apresiasi!
