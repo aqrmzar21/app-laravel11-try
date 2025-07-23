@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-🎯 Fimana Project - Laravel 11 + SQLite
+🎯 Blog Project - Laravel 11 + SQLite
 Selamat datang di proyek BLOG, sebuah aplikasi berbasis Laravel 11 yang dirancang dengan kesederhanaan dan efisiensi. Proyek ini menggunakan SQLite sebagai database utama untuk kemudahan setup dan pengembangan lokal.
 💡 Catatan penting: Karena menggunakan PDO_SQLITE, sangat disarankan untuk menginstall TablePlus agar lebih mudah mengelola database SQLite.
 🚀 Fitur Utama
