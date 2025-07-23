@@ -1,1 +1,12 @@
 Catatan sebelum dipakai karena ini pakai PDO SQLITE jadi disarankan install Table Plus
+
+# 🎯 Fimana Project - Laravel 11 + SQLite
+
+Selamat datang di proyek **BLOG**, sebuah aplikasi berbasis [Laravel 11](https://laravel.com) yang dirancang dengan kesederhanaan dan efisiensi. Proyek ini menggunakan **SQLite** sebagai database utama untuk kemudahan setup dan pengembangan lokal.
+
+## 🚀 Fitur Utama
+- 🔗 Dibangun dengan Laravel 11
+- 🗂️ Menggunakan database SQLite
+- 🎨 Desain modular & mudah dikembangkan
+- ⚙️ Migrasi database langsung dan ringkas
+
