@@ -6,12 +6,11 @@ Selamat datang di proyek **BLOG**, sebuah aplikasi berbasis [Laravel 11](https:/
 
 ## 🚀 Fitur Utama
 - 🔗 Dibangun dengan Laravel 11
-- 🔗 Dibangun dengan Vite Konfig
-- 🔗 Dibangun dengan Airplane
-- 📂 Struktur Proyek
-- 🗂️ Menggunakan database SQLite
-- 🎨 Desain modular & mudah dikembangkan
-- ⚙️ Migrasi database langsung dan ringkas
+- ⚡ Terintegrasi dengan Vite Konfig untuk frontend modern
+- ✈️ Menggunakan Airplane untuk deployment atau workflow (opsional)
+- 🗂️ Database SQLite yang ringan dan siap pakai
+- 📂 Struktur proyek modular dan maintainable
+- ⚙️ Migrasi database praktis langsung via Artisan
 
 ⚙️ Setup Environment
 Copy konfigurasi  dan generate APP_KEY:
@@ -33,6 +32,7 @@ npm run dev
 php artisan migrate
 
 3. 	Aktifkan ekstensi SQLite di PHP:
+composer update
 
 3. 	Buka file php.ini dan pastikan:
 extension=pdo_sqlite
